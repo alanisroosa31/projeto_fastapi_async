@@ -1,0 +1,22 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de ambiente e segredos (NUNCA commit este arquivo!)
+.env
+
+# Cobertura de testes (Pytest)
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Configurações de IDE e sistema
+.vscode/
+.idea/
+.DS_Store
